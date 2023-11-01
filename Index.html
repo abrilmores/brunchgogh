@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8 ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRUNCHEANDO</title>
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/index.css">
+</head>
+<body>
+    
+    <main>
+
+        <section class=" ">
+
+  <!-- Inicio de navbar -->
+ 
+            <nav class="navbar navbar-expand-lg bg-body-tertiary display-">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">Brunchgogh</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Destaca">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#opin">Opiniones</a>
+                    </li>
+                </div>
+                </div>
+            </nav>
+
+        </section>
+        <section>
+
+  <!-- Inicio de card -->
+
+            <div class="card text-bg-dark">
+                <img src="img/trigal.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay my-5">
+                  <p class="card-text text-center fs-3 ">En esta experiecia vas a sentir que estás merendando con el mismisimo Van Gogh. Contamos con pastelería exclusivamente diseñada con replicas de las pinturas más conocidas del artista, más allá del diseño el sabor de las especialidades es de lo mejor que vas a encontrar. Vení a comprobarlo!</p>
+                  <p class="card-text text-center fs-3"><small>Dejanos tus reseñas</small></p>
+                </div>
+              </div>
+
+        </section>
+        
+
+  <!-- Inicio card groups  -->
+
+        <section>
+            <h2 class="text-center p-3 display-6">Algunos de nuestros productos destacados</h2>
+            
+            <div id="Destaca" class="card-group">
+                <div class="card">
+                  <img src="img/galles.jpg" class="card-img-top dimensiones" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Startgogh</h5>
+                    <p class="card-text">Galletas de vainilla, chocolate o avena, glaseadas con merengue italiano, capa de dulce de leche y por encima un diseño unico hecho a mano por nuestros mejores pasteleros. </p>
+                    <p class="card-text"><small class="text-body-secondary btn btn-primary">Recomendado</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="img/tostadas.jpg" class="card-img-top dimensiones" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Toastar</h5>
+                    <p class="card-text">Pan de campo, blanco, salvado o libre de gluten, queso untado de manera artistica inspirado en cuadros historicos, podes elegir el que más te guste! </p>
+                    <p class="card-text"><small class="text-body-secondary btn btn-secondary">Recomendado</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="img/helado.jpg" class="card-img-top dimensiones" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">The yellow ice</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-body-secondary btn btn-success">Recomendado</small></p>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+   <!-- Inicio Carousel -->
+
+    <section class="medidas">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/macarons.jpg" class="d-block w-100 medidas" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/sala.jpg" class="d-block w-100 medidas" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/torta c.jpg" class="d-block w-100 medidas" alt="...">
+        </div>
+        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"     data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+   </section>
+
+  <!-- Inicio form -->
+
+        <section class="p-3 m-5" id="opin">
+
+          <h2 class="display-6 text-center"> Ayudanos a mejorar</h2>
+          <br>
+
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" disabled>
+              <label for="floatingInputDisabled">Ingresa tu Email</label>
+            </div>
+            <br>
+            <div class="form-floating mb-3">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" disabled></textarea>
+              <label for="floatingTextarea2Disabled">En que podemos mejorar?</label>
+            </div>
+        </section>
+    </main>
+
+  <!-- Inicio footer -->
+
+   <footer>
+      <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+          <div class=" center">
+            <a href="" class="navbar-brand"></a>
+            <div class="d-flex justify-content-start">
+              <a  href="https://www.instagram.com/psicoterapiasimbolica/" target="_blank">
+                <img class="logo-ig" src="imagenes/logos-redes/ig_blanco.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Opciones</h5>
+            <div class="d-flex flex-column justify-content-start">
+              <a class="text-white-50 mb-2" href="#"><i></i>> Nosotros</a>
+              <a class="text-white-50 mb-2" href="#"><i></i>> Artículos</a>
+              <a class="text-white-50 mb-2" href="#"><i></i>> Contacto</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Artistas</h5>
+            <div class="d-flex flex-column justify-content-start">
+              <a class="text-white-50 mb-2" href="#"></i>> Vicent Van Gogh</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contáctenos</h5>
+            <p><i class="fa fa-map-marker-alt mr-2"></i> > Lomas de zamora, BA, Argentina</p>
+            <p><i class="fa fa-phone-alt mr-2"></i> > +54 9 11 4035 6367</p>
+            <p><a class="gmail-footer" href="#"> > brunchgogh@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+
+
+  <!-- Footer derechos -->
+      <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
+        style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="row">
+          <div>
+            <p>Copyright &copy; <a href="#">Brunchgogh</a>. All Rights
+              Reserved.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
